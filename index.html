@@ -4,126 +4,140 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Web Studio</title>
+    <!-- Google Fonts links -->
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
     <link
       href="https://fonts.googleapis.com/css2?family=Raleway:wght@700&family=Roboto:wght@400;500;700&display=swap"
       rel="stylesheet"
     />
-    <link rel="stylesheet" href="./css/styles.css" />
+    <!-- Own styles link -->
+    <link rel="stylesheet" href="/styles/styles.css" />
   </head>
   <body>
     <header class="page-header">
-      <nav class="page-nav">
+      <nav>
         <a class="logo" href="./index.html"
-          >Web<span class="logo-too">Studio</span></a
+          >WEB<span class="logo-too">STUDIO</span></a
         >
         <ul class="menu">
-          <li class="menu-item">
-            <a class="menu-link" href="#hero_image">Studio</a>
+          <li class="menu-link">
+            <a class="menu-link-studio" href="#hero_image">Studio</a>
           </li>
-          <li class="menu-item">
-            <a class="menu-link" href="#portfolio">Portfolio</a>
+          <li class="menu-link">
+            <a href="#portfolio">Portfolio</a>
           </li>
-          <li class="menu-item">
-            <a class="menu-link" href="#team">Contacts</a>
+          <li class="menu-link">
+            <a href="#team">Contacts</a>
           </li>
         </ul>
       </nav>
       <address>
-        <ul>
-          <li><a href="mailto:info@devstudio.com">info@devstudio.com</a></li>
-          <li><a href="tel:+110001111111">+11 (000) 111-11-11</a></li>
+        <ul class="menu-address">
+          <li class="menu-link-address">
+            <a href="mailto:info@devstudio.com">info@devstudio.com</a>
+          </li>
+          <li class="menu-link-address">
+            <a href="tel:+110001111111">+11 (000) 111-11-11</a>
+          </li>
         </ul>
       </address>
     </header>
     <main>
-      <section id="hero_image">
-        <h1>Effective Solutions for Your Business</h1>
-        <button type="button">Order Service</button>
+      <section class="section-title" id="hero_image">
+        <h1 class="page-titles">Effective Solutions for Your Business</h1>
+        <button class="page-button" type="button">Order Service</button>
       </section>
-      <section id="benefits">
-        <h2>benefits</h2>
+      <section class="page-benefits" id="benefits">
+        <h2 class="section-benefits">benefits</h2>
         <ul>
-          <li>
-            <h3>Strategy</h3>
-            <p>
+          <li class="menu-benefits">
+            <h3 class="benefits-titles">Strategy</h3>
+            <p class="benefits-text">
               Our goal is to identify the business problem to walk away with the
               perfect and creative solution.
             </p>
           </li>
-          <li>
-            <h3>Punctuality</h3>
-            <p>
+          <li class="menu-benefits">
+            <h3 class="benefits-titles">Punctuality</h3>
+            <p class="benefits-text">
               Bring the key message to the brand's audience for the best price
               within the shortest possible time.
             </p>
           </li>
-          <li>
-            <h3>Diligence</h3>
-            <p>
+          <li class="menu-benefits">
+            <h3 class="benefits-titles">Diligence</h3>
+            <p class="benefits-text">
               Research and confirm brands that present the strongest digital
               growth opportunities and minimize risk.
             </p>
           </li>
-          <li>
-            <h3>Technologies</h3>
-            <p>
+          <li class="menu-benefits">
+            <h3 class="benefits-titles">Technologies</h3>
+            <p class="benefits-text">
               Design practice focused on digital experiences. We bring forth a
               deep passion for problem-solving.
             </p>
           </li>
         </ul>
       </section>
-      <section id="team">
-        <h2>Our Team</h2>
-        <ul>
-          <li>
+      <section class="section-our-team" id="team">
+        <h2 class="team-titles">Our Team</h2>
+        <ul class="menu-our-team">
+          <li class="card-our-team">
             <img
               src="./images/foto-mark-guerrero.jpg"
               alt="foto Mark Guerrero"
               width="264"
               height="260"
             />
-            <h3>Mark Guerrero</h3>
-            <p>Product Designer</p>
+            <div class="card-team-blok">
+              <h3 class="card-team-heder">Mark Guerrero</h3>
+              <p class="card-team-text">Product Designer</p>
+            </div>
           </li>
-          <li>
+          <li class="card-our-team">
             <img
               src="./images/foto-tom-ford.jpg"
               alt="foto Tom Ford"
               width="264"
               height="260"
             />
-            <h3>Tom Ford</h3>
-            <p>Frontend Developer</p>
+            <div class="card-team-blok">
+              <h3 class="card-team-heder">Tom Ford</h3>
+              <p class="card-team-text">Frontend Developer</p>
+            </div>
           </li>
-          <li>
+          <li class="card-our-team">
             <img
               src="./images/foto-camila-garcia.jpg"
               alt="foto Camila Garcia"
               width="264"
               height="260"
             />
-            <h3>Camila Garcia</h3>
-            <p>Marketing</p>
+            <div class="card-team-blok">
+              <h3 class="card-team-heder">Camila Garcia</h3>
+              <p class="card-team-text">Marketing</p>
+            </div>
           </li>
-          <li>
+          <li class="card-our-team">
             <img
               src="./images/foto-daniel-wilson.jpg"
               alt="foto Daniel Wilson"
               width="264"
               height="260"
             />
-            <h3>Daniel Wilson</h3>
-            <p>UI Designer</p>
+            <div class="card-team-blok">
+              <h3 class="card-team-heder">Daniel Wilson</h3>
+              <p class="card-team-text">UI Designer</p>
+            </div>
           </li>
         </ul>
       </section>
-      <section id="portfolio">
-        <h2>our portfolio</h2>
-        <ul>
-          <li>
+      <section class="section-portfolio" id="portfolio">
+        <h2 class="portfolso-titles">our portfolio</h2>
+        <ul class="first-blok-portfolso">
+          <li class="foto-cards">
             <img
               src="./images/img-portfolio/foto-banking.jpg"
               alt="foto Banking App"
@@ -133,7 +147,7 @@
             <h3>Banking App</h3>
             <p>App</p>
           </li>
-          <li>
+          <li class="foto-cards">
             <img
               src="./images/img-portfolio/foto-cash-pay.jpg"
               alt="foto Cashless Payment"
@@ -143,7 +157,7 @@
             <h3>Cashless Payment</h3>
             <p>Marketing</p>
           </li>
-          <li>
+          <li class="foto-cards">
             <img
               src="./images/img-portfolio/foto-meditation-app.jpg"
               alt="foto Meditation App"
@@ -155,7 +169,7 @@
           </li>
         </ul>
         <ul>
-          <li>
+          <li class="foto-cards">
             <img
               src="./images/img-portfolio/foto-taxi.jpg"
               alt="foto-avto"
@@ -165,7 +179,7 @@
             <h3>Taxi Service</h3>
             <p>Marketing</p>
           </li>
-          <li>
+          <li class="foto-cards">
             <img
               src="./images/img-portfolio/foto-screen.jpg"
               alt="screen Illustrations"
@@ -175,7 +189,7 @@
             <h3>Screen Illustrations</h3>
             <p>Design</p>
           </li>
-          <li>
+          <li class="foto-cards">
             <img
               src="./images/img-portfolio/foto-online-cours.jpg"
               alt="online courses"
