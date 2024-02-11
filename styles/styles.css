@@ -2,7 +2,9 @@ html,
 body {
   color: #2e2f42;
   margin: 0;
-  font-family: "Roboto", "Raleway", sans-serif;
+  font-family: "Roboto", sans-serif;
+  color: #434455;
+  background: #ffffff;
 }
 
 ul,
@@ -15,7 +17,7 @@ a {
   color: inherit;
 }
 .page-header {
-  background-color: #fff;
+  background-color: #ffffff;
 }
 
 .logo {
@@ -23,24 +25,24 @@ a {
   font-family: "Raleway";
   font-size: 18px;
   font-weight: 700;
-  line-height: 21px;
-  letter-spacing: 0.54px;
+  line-height: 1.17;
+  letter-spacing: 0.03em;
+  text-transform: uppercase;
 }
 .logo-too {
   color: #2e2f42;
 }
 
-.menu {
+.menu-link {
   font-family: "Roboto";
   font-size: 16px;
   font-weight: 500;
-  line-height: 24px;
-  letter-spacing: 0.32px;
-}
-.menu-link {
+  line-height: 1.5;
+  letter-spacing: 0.02em;
   color: #2e2f42;
 }
-.menu-link-studio:active {
+
+.menu-link:active {
   color: #404bbf;
 }
 .menu-link:hover,
@@ -48,16 +50,16 @@ a {
   color: #404bbf;
 }
 
-.menu-address {
+.menu-link-address {
   font-family: "Roboto";
   font-size: 16px;
   font-weight: 400;
+  font-style: normal;
   line-height: 24px;
   letter-spacing: 0.32px;
-}
-.menu-link-address {
   color: #434455;
 }
+
 .menu-link-address:active {
   color: #404bbf;
 }
@@ -66,88 +68,91 @@ a {
   color: #404bbf;
 }
 
+/* Section Title */
 .section-title {
-  width: 1440px;
-  height: 600px;
-  flex-shrink: 0;
   background-color: #2e2f42;
 }
 
 .page-titles {
-  color: #fff;
+  color: #ffffff;
   text-align: center;
   font-family: "Roboto";
   font-size: 56px;
   font-weight: 700;
-  line-height: 60px;
-  letter-spacing: 1.12px;
-}
-.page-button {
-  cursor: pointer;
-  background: #4d5ae5;
-  box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.15);
-  color: #fff;
+  line-height: 1.07;
+  letter-spacing: 0.02em;
 }
 
-.page-benefits {
-  background-color: #fff;
-}
-.menu-benefits {
-  background-color: #fff;
-}
-.benefits-titles {
-  color: #2e2f42;
-  font-family: "Roboto";
-  font-size: 20px;
+/* Button */
+.page-button {
+  background-color: #4d5ae5;
+  font-family: "Roboto", sans-serif;
   font-weight: 500;
-  line-height: 24px;
-  letter-spacing: 0.4px;
+  font-size: 16px;
+  line-height: 1.5;
+  letter-spacing: 0.04em;
+  color: #ffffff;
+  cursor: pointer;
+}
+.page-button:hover,
+.page-button:focus {
+  background-color: #404bbf;
+}
+
+/* Section presentation */
+/* make invisible h2 */
+.benefits-titles {
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 1.2;
+  letter-spacing: 0.02em;
+  color: #2e2f42;
 }
 .benefits-text {
   color: #434455;
-  font-family: "Roboto";
   font-size: 16px;
   font-weight: 400;
-  line-height: 24px;
-  letter-spacing: 0.32px;
+  line-height: 1.5;
+  letter-spacing: 0.02em;
 }
 
+/* Section Our Team */
 .section-our-team {
   background-color: #f4f4fd;
 }
 .team-titles {
-  color: #2e2f42;
-  font-family: "Roboto";
   font-size: 36px;
-  font-weight: 700;
-  line-height: 40px;
-  letter-spacing: 0.72px;
+  line-height: 1.11;
+  text-align: center;
+  letter-spacing: 0.02em;
+  text-transform: capitalize;
+  color: #2e2f42;
 }
 .card-our-team {
-  background: #fff;
+  background-color: #ffffff;
 }
-.card-team-heder {
-  color: #2e2f42;
-  font-family: "Roboto";
-  font-size: 20px;
+.card-team-titles {
   font-weight: 500;
-  line-height: 24px;
-  letter-spacing: 0.4px;
-}
-.card-team-blok {
-  background: #fff;
+  font-size: 20px;
+  line-height: 1.2;
+  letter-spacing: 0.02em;
+  color: #2e2f42;
 }
 .card-team-text {
-  color: #434455;
-  font-family: "Roboto";
   font-size: 16px;
-  font-weight: 400;
-  line-height: 24px;
-  letter-spacing: 0.32px;
+  line-height: 1.5;
+  letter-spacing: 0.02em;
+  color: #434455;
 }
 
+/* Section portfolio */
 .section-portfolio {
-  background: #fff;
+  font-size: 36px;
+  line-height: 1.11;
+  text-align: center;
+  letter-spacing: 0.02em;
+  text-transform: capitalize;
+  color: #2e2f42;
 }
 .portfolso-titles {
   color: #2e2f42;
@@ -157,40 +162,43 @@ a {
   line-height: 40px;
   letter-spacing: 0.72px;
 }
-.first-blok-portfolso {
-  background: #fff;
-}
 
-.foto-cards {
-  background: #fff;
-}
+/* First bloc porfolio */
 .card-title {
-  color: #2e2f42;
-  font-family: "Roboto";
-  font-size: 20px;
   font-weight: 500;
-  line-height: 24px;
-  letter-spacing: 0.4px;
+  font-size: 20px;
+  line-height: 1.2;
+  letter-spacing: 0.02em;
+  color: #2e2f42;
 }
 .card-text {
   color: #434455;
-  font-family: "Roboto";
   font-size: 16px;
   font-weight: 400;
-  line-height: 24px;
-  letter-spacing: 0.32px;
+  line-height: 1.5;
+  letter-spacing: 0.02em;
 }
+
+/* Footer */
 .footer {
-  background: #2e2f42;
+  background-color: #2e2f42;
 }
 .logo-footer {
+  font-family: "Raleway";
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 1.17;
+  letter-spacing: 0.03em;
+  text-transform: uppercase;
+  color: #4d5ae5;
+}
+.logo-footer-span {
   color: #f4f4fd;
 }
 .text-footer {
   color: #f4f4fd;
-  font-family: "Roboto";
   font-size: 16px;
   font-weight: 400;
-  line-height: 24px;
-  letter-spacing: 0.32px;
+  line-height: 1.5;
+  letter-spacing: 0.02em;
 }
