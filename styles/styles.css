@@ -22,7 +22,7 @@ a {
 
 .logo {
   color: #4d5ae5;
-  font-family: "Raleway";
+  font-family: "Raleway", sans-serif;
   font-size: 18px;
   font-weight: 700;
   line-height: 1.17;
@@ -49,7 +49,9 @@ a {
 .menu-link:focus {
   color: #404bbf;
 }
-
+.link-address {
+  font-style: normal;
+}
 .menu-link-address {
   font-family: "Roboto";
   font-size: 16px;
@@ -184,7 +186,7 @@ a {
   background-color: #2e2f42;
 }
 .logo-footer {
-  font-family: "Raleway";
+  font-family: "Raleway", sans-serif;
   font-weight: 700;
   font-size: 18px;
   line-height: 1.17;
