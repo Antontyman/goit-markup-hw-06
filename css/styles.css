@@ -82,7 +82,7 @@ img {
 }
 .menu-link {
   display: block;
-  font-family: "Roboto";
+  font-family: "Roboto", sans-serif;
   font-size: 16px;
   font-weight: 500;
   line-height: 1.5;
@@ -103,7 +103,7 @@ img {
   column-gap: 40px;
 }
 .menu-link-address {
-  font-family: "Roboto";
+  font-family: "Roboto", sans-serif;
   font-size: 16px;
   font-weight: 400;
   font-style: normal;
@@ -127,18 +127,15 @@ img {
   padding-bottom: 188px;
 }
 
-.hero-container {
-  display: flex;
+.page-titles {
   max-width: 496px;
   margin-bottom: 48px;
   margin-left: auto;
   margin-right: auto;
-}
-.page-titles {
   color: #ffffff;
   text-align: center;
   text-transform: capitalize;
-  font-family: "Roboto";
+  font-family: "Roboto", sans-serif;
   font-size: 56px;
   font-weight: 700;
   line-height: 1.07;
@@ -146,11 +143,11 @@ img {
 }
 
 /* Button */
-.btn-container {
-  display: block;
-  text-align: center;
-}
+
 .page-button {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
   min-width: 169px;
   height: 56px;
   padding: 16px 32px;
@@ -241,6 +238,7 @@ img {
 .card-our-team {
   background-color: #ffffff;
   width: calc((100% - 72px) / 4);
+  border-radius: 0px 0px 4px 4px;
 }
 
 .block-foto {
@@ -249,23 +247,20 @@ img {
   flex-direction: column;
   align-items: center;
   border: none;
-  border-radius: 0px 0px 4px 4px;
-  box-shadow: 0px 2px 1px 0px rgba(46, 47, 66, 0.08),
-    0px 1px 1px 0px rgba(46, 47, 66, 0.16),
-    0px 1px 6px 0px rgba(46, 47, 66, 0.08);
+  padding: 32px 0;
 }
 
 .card-team-titles {
-  padding-top: 32px;
+  text-align: center;
   font-weight: 500;
   font-size: 20px;
   line-height: 1.2;
   letter-spacing: 0.02em;
   color: #2e2f42;
-  padding-bottom: 8px;
+  margin-bottom: 8px;
 }
 .card-team-text {
-  padding-bottom: 32px;
+  text-align: center;
   font-size: 16px;
   line-height: 1.5;
   letter-spacing: 0.02em;
@@ -304,21 +299,21 @@ img {
 }
 
 .first-block-portfolio-card {
-  border: 1px solid #e7e9fc;
-  border-top: none;
   width: calc((100% - 48px) / 3);
-}
-
-.card-portfolio {
   flex-direction: column;
   justify-content: center;
   align-self: stretch;
+}
+
+.card-portfolio {
 }
 
 .card-content-portfolio {
   padding: 32px 16px;
   justify-content: center;
   text-align: stretch;
+  border: 1px solid #e7e9fc;
+  border-top: none;
 }
 .card-title {
   font-weight: 500;
