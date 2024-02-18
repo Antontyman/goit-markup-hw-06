@@ -77,8 +77,7 @@ img {
 }
 
 .link-menu {
-  padding-top: 24px;
-  padding-bottom: 24px;
+  padding: 24px 0;
 }
 .menu-link {
   display: block;
@@ -100,7 +99,7 @@ img {
 .link-address {
   display: flex;
   font-style: normal;
-  column-gap: 40px;
+  gap: 40px;
 }
 .menu-link-address {
   font-family: "Roboto", sans-serif;
