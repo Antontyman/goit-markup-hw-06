@@ -43,6 +43,9 @@ img {
 }
 .heder {
   border-bottom: 1px solid #e7e9fc;
+  box-shadow: 0px 1px 6px 0px rgba(46, 47, 66, 0.08),
+    0px 1px 1px 0px rgba(46, 47, 66, 0.16),
+    0px 2px 1px 0px rgba(46, 47, 66, 0.08);
 }
 .page-header {
   background-color: #ffffff;
@@ -77,6 +80,18 @@ img {
 }
 
 .link-menu {
+  position: relative;
+}
+.studio::after {
+  content: "";
+  display: block;
+  position: absolute;
+  width: 100%;
+  height: 4px;
+  border-radius: 2px;
+  background-color: #404bbf;
+  left: 0;
+  bottom: -1px;
 }
 .menu-link {
   display: block;
@@ -125,6 +140,14 @@ img {
   background-color: #2e2f42;
   padding-top: 188px;
   padding-bottom: 188px;
+  background-image: linear-gradient(
+      rgba(46, 47, 66, 0.7),
+      rgba(46, 47, 66, 0.7)
+    ),
+    url(../images/people-office-1.jpg);
+  background-repeat: no-repeat;
+  background-position: center center;
+  background-size: cover;
 }
 
 .page-titles {
@@ -265,8 +288,34 @@ img {
   line-height: 1.5;
   letter-spacing: 0.02em;
   color: #434455;
+  margin-bottom: 8px;
 }
 
+.social-list {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 24px;
+}
+
+.social-list-item {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.social-list-icon {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: #4d5ae5;
+  width: 40px;
+  height: 40px;
+  border-radius: 50%;
+  fill: #f4f4fd;
+}
+.social-list-icon:hover {
+  fill: #f4f4fd;
+  background-color: #404bbf;
+}
 /* Section portfolio */
 .section-portfolio {
   font-size: 36px;
@@ -336,6 +385,7 @@ img {
   background-color: #2e2f42;
   flex-shrink: 0;
   display: flex;
+  flex-wrap: wrap;
   flex-direction: column;
   justify-content: center;
   padding: 100px 0;
@@ -361,5 +411,33 @@ img {
   line-height: 1.5;
   letter-spacing: 0.02em;
   max-width: 264px;
-  margin-top: 17.5px;
+}
+.text-footer-social-media {
+  color: #ffffff;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 24px;
+  letter-spacing: 0.32px;
+  margin-bottom: 16px;
+}
+.footer-block {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 120px;
+}
+
+.social-list-icon-footer {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: #4d5ae5;
+  width: 40px;
+  height: 40px;
+  border-radius: 50%;
+  fill: #f4f4fd;
+}
+.social-list-icon-footer:hover {
+  fill: #f4f4fd;
+  background-color: #31d0aa;
 }
