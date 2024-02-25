@@ -217,13 +217,26 @@ img {
   display: flex;
   gap: 24px;
 }
+
+.icon-benefits {
+  max-width: 264px;
+  max-height: 112px;
+  padding-top: 24px;
+  padding-bottom: 24px;
+  text-align: center;
+  flex-shrink: 0;
+  border-radius: 4px;
+  border: 1px solid #8e8f99;
+  background: #f4f4fd;
+}
+
 .benefits {
   display: flex;
   flex-direction: column;
   max-width: calc((100% - 72px) / 4);
+  gap: 8px;
 }
 .benefits-titles {
-  margin-bottom: 8px;
   font-weight: 500;
   font-size: 20px;
   line-height: 1.2;
