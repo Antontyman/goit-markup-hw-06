@@ -646,11 +646,7 @@ img {
   cursor: pointer;
 }
 
-.close-btn:hover {
-  background-color: #404bbf;
-  border: none;
-  fill: #ffffff;
-}
+.close-btn:hover,
 .close-btn:focus {
   background-color: #404bbf;
   border: none;
