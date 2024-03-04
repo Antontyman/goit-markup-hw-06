@@ -646,22 +646,33 @@ img {
   cursor: pointer;
 }
 
-.close-btn:hover,
-.close-btn:focus {
-  background-color: #404bbf;
-  border: none;
-  fill: #ffffff;
-}
-
 .icon-close-btn {
   width: 24px;
   height: 24px;
   transition: fill 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
+
+.close-btn:hover,
+.close-btn:focus {
+  background-color: #404bbf;
+  border: none;
+}
+
+.close-btn:hover .icon-close-btn,
+.close-btn:focus .icon-close-btn {
+  fill: #ffffff;
+}
+
 .contact-form-box {
   display: block;
   width: 100%;
   margin-bottom: 8px;
+}
+
+.contact-form-box-comment {
+  display: block;
+  width: 100%;
+  margin-bottom: 16px;
 }
 
 .text-form {
