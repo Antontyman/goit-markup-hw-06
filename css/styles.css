@@ -658,8 +658,8 @@ img {
   border: none;
 }
 
-.close-btn:hover .icon-close-btn,
-.close-btn:focus .icon-close-btn {
+.close-btn:hover > .icon-close-btn,
+.close-btn:focus > .icon-close-btn {
   fill: #ffffff;
 }
 
