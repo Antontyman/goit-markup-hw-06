@@ -205,7 +205,7 @@ img {
       rgba(46, 47, 66, 0.7),
       rgba(46, 47, 66, 0.7)
     ),
-    url(../images/tablet-titel-background_1x.jpg);
+    url(../images/mobile-titel-background_1x.jpg);
   background-repeat: no-repeat;
   background-position: center center;
   background-size: cover;
@@ -219,7 +219,7 @@ img {
         rgba(46, 47, 66, 0.7),
         rgba(46, 47, 66, 0.7)
       ),
-      url(../images/tablet-titel-background_2x.jpg);
+      url(../images/mobile-titel-background_2x.jpg);
   }
 }
 
@@ -245,7 +245,7 @@ img {
         rgba(46, 47, 66, 0.7),
         rgba(46, 47, 66, 0.7)
       ),
-      url(../images/decktop-titel-backgound_1x.jpg);
+      url(../images/tablet-titel-background_1x.jpg);
   }
 
   .page-titles {
@@ -262,7 +262,7 @@ img {
         rgba(46, 47, 66, 0.7),
         rgba(46, 47, 66, 0.7)
       ),
-      url(../images/decktop-titel-backgound_2x.jpg);
+      url(../images/tablet-titel-background_2x.jpg);
   }
 }
 
