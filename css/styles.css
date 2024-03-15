@@ -199,7 +199,6 @@ img {
 /* ============== Section Title ================ */
 .section-title {
   background-color: #2e2f42;
-  max-width: 768px;
   padding-top: 72px;
   padding-bottom: 72px;
   background-image: linear-gradient(
@@ -240,7 +239,6 @@ img {
 
 @media only screen and (min-width: 768px) {
   .section-title {
-    max-width: 1158px;
     padding-top: 112px;
     padding-bottom: 112px;
     background-image: linear-gradient(
@@ -270,7 +268,6 @@ img {
 
 @media only screen and (min-width: 1158px) {
   .section-title {
-    max-width: 1440px;
     padding-top: 188px;
     padding-bottom: 188px;
     background-image: linear-gradient(
